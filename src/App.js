@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import SignIn from "./features/users/SignIn/SignIn";
+import Home from "./features/movie/Home/Home";
 
 function App() {
-  return <h1>This is App Page.</h1>;
+  return (
+    <div className="App">
+      <SignIn />
+      <Home />
+    </div>
+  );
 }
 
 export default App;
