@@ -27,21 +27,22 @@ function SignIn() {
 
         <div className="linkWrapper mb-3">
           <span>
-            <input type="checkbox"></input> &nbsp;
+            <input type="checkbox" className="remcheckbox"></input> &nbsp;
             <a href="">Remember Password</a>
           </span>
           <a href="">Forgot Password</a>
         </div>
         <div className="btn-wrapper">
-          <button className="btn btn-primary mb-3">Sign In</button>
+          <button className="btn btn-primary m-3 signIn">Sign In</button>
         </div>
-
-        <span className="loginText" htmlFor="">
-          Don't have an account? &nbsp;&nbsp;
-          <a className="loginLink" href="/signup">
-            SignUp Now{" "}
-          </a>
-        </span>
+        <div className="logintextcontainer">
+          <span className="loginText" htmlFor="">
+            Don't have an account? &nbsp;&nbsp;
+            <a className="loginLink" href="/signup">
+              SignUp Now{" "}
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   );
