@@ -1,6 +1,14 @@
 import React from "react";
 import "./Home.css";
+import Banner from "../Banner/Banner";
+import Navbar from "../../shared/NavBar/Navbar";
+
 function Home() {
-  return <h1>This is Home</h1>;
+  return (
+    <div className="homeContainer">
+      <Navbar />
+      <Banner />
+    </div>
+  );
 }
 export default Home;
