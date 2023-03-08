@@ -1,0 +1,9 @@
+.signupBtn {
+    margin: 20px;
+    padding: 10px 60px;
+    text-transform: none;
+}
+
+.form-label {
+    opacity: 0.8;
+}

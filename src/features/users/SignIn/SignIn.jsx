@@ -33,7 +33,7 @@ function SignIn() {
           <a href="">Forgot Password</a>
         </div>
         <div className="btn-wrapper">
-          <button className="btn btn-primary m-3 signIn">Sign In</button>
+          <button className="btnformat signupBtn">Sign In</button>
         </div>
         <div className="logintextcontainer">
           <span className="loginText" htmlFor="">
