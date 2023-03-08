@@ -1,0 +1,49 @@
+.navbarcontainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #04103B;
+    height: 75px;
+}
+
+.navbar {
+    width: 80%;
+    /* border: solid 1px red; */
+    background-color: #04103B;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    /* border: solid 1px red; */
+}
+
+.menucontainer {
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.menuItem {
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+
+.joinusbtn {
+    margin-right: 20px;
+    /* border: solid 1px red; */
+}
+
+.btnformat {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 6px 24px;
+    border: none;
+    border-radius: 50px;
+}
+
+.navbarbtn {
+    padding: 8px 36px;
+}

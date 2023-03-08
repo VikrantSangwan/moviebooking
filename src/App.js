@@ -5,8 +5,8 @@ import Home from "./features/movie/Home/Home";
 function App() {
   return (
     <div className="App">
-      <SignIn />
       <Home />
+      {/* <SignIn /> */}
     </div>
   );
 }
