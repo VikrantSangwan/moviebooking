@@ -1,0 +1,146 @@
+.searchpanelcontainer {
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subcontainer {
+    padding: 40px 30px;
+    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
+    border: solid 1px green;
+    width: 1200px;
+    height: 100%;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.paneltext>p:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    color: #31d7a9;
+    padding: 0;
+    margin: 0;
+}
+
+.paneltext>p:last-child {
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    font-family: Segoe UI, 'san-sarif';
+    letter-spacing: 1px;
+}
+
+.panelbtncontainer {
+    display: flex;
+}
+
+.panelbtncontainer>button {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    border-radius: 30px;
+    padding: 6px 36px;
+    border: none;
+    background-color: #7d78ff;
+}
+
+.panelbtncontainer>button>span {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.panelbtncontainer>button>img {
+    margin-right: 8px;
+}
+
+.maincontainer {
+    background-color: black;
+    /* opacity: 0.4; */
+    padding: 20px 30px;
+}
+
+.svgimg {
+    fill: #dbe2fb;
+}
+
+.searchboxcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #31d7a9;
+    z-index: 999;
+    color: #dbe2fb;
+}
+
+input {
+    font-size: 16px;
+    background-color: transparent;
+    margin: 0;
+    border: none;
+    padding: 0px 60px 8px 0px;
+    color: #dbe2fb;
+    overflow-x: visible;
+    outline: none;
+}
+
+input::placeholder {
+    color: #dbe2fb;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.filtercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.filtericon {
+    display: flex;
+    align-items: center;
+    margin: 6px;
+}
+
+
+
+.filtericon>span {
+    /* border: solid 1px red; */
+    margin-left: 8px;
+    margin-right: 10px;
+    color: #31d7a9;
+    font-size: 18px;
+
+}
+
+select,
+.filterselect {
+    background-color: transparent;
+    /* border: solid 1px red; */
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+option,
+.filteroption {
+    /* border: solid 1px red; */
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}

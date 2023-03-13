@@ -7,3 +7,13 @@
 .form-label {
     opacity: 0.8;
 }
+
+.btnformat {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    padding: 6px 24px;
+    border: none;
+    border-radius: 50px;
+}
