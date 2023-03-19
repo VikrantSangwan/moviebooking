@@ -1,15 +1,31 @@
 .banner {
-    height: 550px;
-    background: rgba(0, 0, 0, 0.5) url("http://pixner.net/boleto/demo/assets/images/banner/banner02.jpg");
-    background-blend-mode: darken;
-    background-size: cover;
+    height: 75vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.banner p {
+.bg-fixed-img {
+    background-image: url("http://pixner.net/boleto/demo/assets/images/banner/banner01.jpg");
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerContainer p {
     font-size: 38px;
     line-height: 1.4;
     color: white;

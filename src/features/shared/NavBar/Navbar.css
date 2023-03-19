@@ -3,6 +3,7 @@
     justify-content: space-around;
     background-color: #04103B;
     height: 75px;
+    z-index: 9999;
 }
 
 .navbar {

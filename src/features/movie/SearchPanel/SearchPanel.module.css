@@ -1,24 +1,36 @@
 .searchpanelcontainer {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #001232;
+
 }
 
 .subcontainer {
     padding: 40px 30px;
-    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
-    border: solid 1px green;
     width: 1200px;
     height: 100%;
+    background-image: url('http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg');
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 0px;
+    margin-bottom: 20px;
+    /* box-shadow: 0px 5px 15px 0px rgba(44, 41, 157, 0.5); */
+    /* border: solid 1px red; */
+}
+
+.maincontainer {
+    padding: 25px;
+    background-color: #001232;
 }
 
 .paneltext>p:first-child {
@@ -59,12 +71,6 @@
 
 .panelbtncontainer>button>img {
     margin-right: 8px;
-}
-
-.maincontainer {
-    background-color: black;
-    /* opacity: 0.4; */
-    padding: 20px 30px;
 }
 
 .svgimg {
