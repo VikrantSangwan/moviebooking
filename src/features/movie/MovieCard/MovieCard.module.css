@@ -1,0 +1,52 @@
+.cardcontainer {
+    width: fit-content;
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 05px;
+}
+
+hr {
+    border-top: dashed 1px white;
+    width: 84%;
+    opacity: 0.3;
+}
+
+h3 {
+    color: white;
+}
+
+.cardcontent {
+    z-index: 10;
+    padding: 15px 0px;
+    background-color: #032055;
+}
+
+.cardrating {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 0px 10px;
+}
+
+.cardheader {
+    padding: 5px 20px;
+}
+
+.cardrating>div {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cardimg {
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.cardimg:hover {
+    transform: scale(1.1);
+}

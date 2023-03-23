@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import Banner from "../Banner/Banner";
 import Navbar from "../../shared/NavBar/Navbar";
 import SearchPanel from "../SearchPanel/SearchPanel";
+import MovieCard from "../MovieCard/MovieCard";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar />
       <Banner />
       <SearchPanel />
+      <MovieCard />
     </div>
   );
 }
