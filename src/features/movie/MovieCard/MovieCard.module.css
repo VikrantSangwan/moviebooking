@@ -1,26 +1,26 @@
 .cardcontainer {
-    width: fit-content;
-    /* border: solid 1px red; */
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
-    border-radius: 05px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    max-height: 500px;
+    /* border: solid 1px red; */
 }
 
 hr {
     border-top: dashed 1px white;
-    width: 84%;
+    width: 85%;
     opacity: 0.3;
 }
 
-h3 {
+h5 {
     color: white;
 }
 
 .cardcontent {
-    z-index: 10;
     padding: 15px 0px;
     background-color: #032055;
+    float: inline-end;
+    height: 200px;
 }
 
 .cardrating {
@@ -43,10 +43,16 @@ h3 {
 }
 
 .cardimg {
+    position: relative;
     overflow: hidden;
-    transition: transform 0.3s;
 }
 
-.cardimg:hover {
+.cardimg>img {
+    transition: all ease-in 0.3s;
+    max-width: 100%;
+    height: auto;
+}
+
+.cardimg>img:hover {
     transform: scale(1.1);
 }

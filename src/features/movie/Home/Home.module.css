@@ -2,3 +2,9 @@
     background-color: #001232;
     height: 100%;
 }
+
+.movies {
+    /* border: solid 1px red; */
+    margin: 0px 150px;
+    padding: 0;
+}

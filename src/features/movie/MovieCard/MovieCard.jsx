@@ -1,18 +1,25 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./MovieCard.module.css";
 
-function MovieCard() {
+function MovieCard(props) {
+  let navigate = useNavigate();
+  function moviedetail(movid) {
+    console.log(movid);
+    navigate("/moviedetail/" + movid);
+  }
+
   return (
-    <div className={styles.cardcontainer}>
+    <div
+      className={styles.cardcontainer}
+      onClick={() => moviedetail(props.movie._id)}
+    >
       <div className={styles.cardimg}>
-        <img
-          src="https://pixner.net/boleto/demo/assets/images/movie/movie01.jpg"
-          alt=""
-        />
+        <img src={props.movie.posterUrl} alt="" />
       </div>
       <div className={styles.cardcontent}>
         <div className={styles.cardheader}>
-          <h3>Alone</h3>
+          <h5>{props.movie.name}</h5>
         </div>
         <hr />
         <div className={styles.cardrating}>
@@ -27,7 +34,7 @@ function MovieCard() {
               alt=""
             />
             &nbsp;&nbsp;
-            <span>88%</span>
+            <span>{props.movie.rating}</span>
           </div>
         </div>
       </div>

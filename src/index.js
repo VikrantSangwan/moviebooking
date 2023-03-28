@@ -4,8 +4,10 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignIn from "./features/users/SignIn/SignIn";
+import SignUp from "./features/users/SignUp/SignUp";
 import App from "./App";
 import Home from "./features/movie/Home/Home";
+import MovieDetail from "./features/movie/MovieDetail/MovieDetail";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +16,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/signin" element={<SignIn />}></Route>
+        <Route path="/signup" element={<SignUp />}></Route>
+        <Route path="/moviedetail/:movid" element={<MovieDetail />}></Route>
         <Route path="/home" element={<Home />}></Route>
       </Routes>
     </BrowserRouter>
